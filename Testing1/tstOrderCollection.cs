@@ -93,11 +93,11 @@ namespace Testing3
             Int32 PrimaryKey = 0;
             TestItem.OrderID = 1;
             TestItem.CustomerNo = 10;
-            TestItem.Address = "45 Linton Street";
+            TestItem.Address = "45 Random Street";
             TestItem.ShirtColour = "white";
             TestItem.Price = 19;
             TestItem.Date = DateTime.Now.Date;
-            TestItem.TeamName = "white shirt";
+            TestItem.TeamName = "spurs";
             TestItem.StaffID = 15;
             TestItem.Availability = true;
             AllOrders.ThisOrder = TestItem;
@@ -118,7 +118,7 @@ namespace Testing3
             Int32 PrimaryKey = 0;
             //test data to update
             TestItem.CustomerNo = 10;
-            TestItem.Address = "45 Linton Street";
+            TestItem.Address = "45 Random Street";
             TestItem.ShirtColour = "white";
             TestItem.Price = 19;
             TestItem.Date = DateTime.Now.Date;
@@ -129,7 +129,7 @@ namespace Testing3
             TestItem.OrderID = PrimaryKey;
             //new test data
             TestItem.CustomerNo = 12;
-            TestItem.Address = "36 Linton Street";
+            TestItem.Address = "36 Random Street";
             TestItem.ShirtColour = "white";
             TestItem.Price = 21;
             TestItem.Date = DateTime.Now.Date;
@@ -153,7 +153,7 @@ namespace Testing3
             Int32 PrimaryKey = 0;
             //data to delete
             TestItem.CustomerNo = 13;
-            TestItem.Address = "38 Linton Street";
+            TestItem.Address = "38 Random Street";
             TestItem.ShirtColour = "white";
             TestItem.Price = 21;
             TestItem.Date = DateTime.Now.Date;
