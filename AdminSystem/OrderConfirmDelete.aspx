@@ -9,7 +9,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            Are you sure you want to delete this order?</div>
+        <asp:Button ID="btnYes" runat="server" OnClick="btnYes_Click" Text="Yes" style="width: 37px" />
+        <asp:Button ID="btnNo" runat="server" Text="No" OnClick="btnNo_Click" />
     </form>
 </body>
 </html>
